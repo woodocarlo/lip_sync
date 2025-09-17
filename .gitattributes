@@ -1,3 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 *.pth filter=lfs diff=lfs merge=lfs -text
+temp/
+output/
+input/
+__pycache__/
+*.pyc
